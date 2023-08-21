@@ -92,12 +92,6 @@ SP_PRIV void set_termios_speed(void *data, int speed)
 }
 #endif
 
-#ifdef HAVE_STRUCT_TERMIOX
-SP_PRIV size_t get_termiox_size(void)
-{
-	return sizeof(struct termiox);
-}
-
 SP_PRIV int get_termiox_flow(void *data, int *rts, int *cts, int *dtr, int *dsr)
 {
 	struct termiox *termx = (struct termiox *) data;
