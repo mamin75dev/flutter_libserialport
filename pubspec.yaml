@@ -22,9 +22,5 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      linux:
-        pluginClass: FlutterLibserialportPlugin
-      macos:
-        pluginClass: FlutterLibserialportPlugin
       windows:
         pluginClass: FlutterLibserialportPlugin
